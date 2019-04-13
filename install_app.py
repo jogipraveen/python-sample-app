@@ -1,6 +1,5 @@
 #!/usr/local/bin/python3
 import subprocess
-import os
 
 subprocess.run(['sudo', 'yum', 'update', '-y'])
 subprocess.run(['sudo', 'yum', 'install', '-y', 'docker-18.06.1ce-8.amzn2'])
